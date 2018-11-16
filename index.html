@@ -68,6 +68,16 @@
 .zoom:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+	 
+ a.button {
+    transition: transform .2s; /* Animation */
+    width: 250px;
+    height: 253px;
+    margin: 0 auto;
+}
+a.button:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
  
  </style>
  </head>
@@ -118,7 +128,7 @@ $(document).ready(function(){
     Message Us!
     <span class="caret"></span>
   </button>
-  <ul class="dropdown-menu zoom" aria-labelledby="dropdownMenu1">
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
       <a href="https://wa.me/17704159731">
           <img src="https://i.imgur.com/ZvjtmZt.jpg" width="250px" height="50px" />
       </a></br>
